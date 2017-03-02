@@ -1,4 +1,4 @@
-update=2017/02/23 13:37:59
+update=2017/02/23 18:03:19
 version=1
 last_client=kicad
 [pcbnew]
@@ -63,3 +63,13 @@ LibName31=C:/Users/kerikun11/GoogleDrive/KiCad/Libraries/bfrigon-microsd/library
 LibName32=C:/Users/kerikun11/GoogleDrive/KiCad/Libraries/kerikun11/kerikun11
 LibName33=C:/Users/kerikun11/GoogleDrive/Github/KERISE/kicad/esp32/KERISEv3
 LibName34=C:/Users/kerikun11/GoogleDrive/KiCad/Libraries/KiCad2/library/ftdi
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
