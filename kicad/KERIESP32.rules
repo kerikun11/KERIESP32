@@ -1,5 +1,5 @@
 
-(rules PCB ESP32-board
+(rules PCB KERIESP32
   (snap_angle 
     fortyfive_degree
   )
@@ -11,18 +11,18 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 5061)
+    (start_pass_no 1423)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 2.5)
+      (against_preferred_direction_trace_costs 3.3)
     )
     (layer_rule B.Cu
       (active on)
       (preferred_direction vertical)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 1.7)
+      (against_preferred_direction_trace_costs 1.4)
     )
   )
   (rule
@@ -87,12 +87,10 @@
     )
   )
   (class "kicad_default"
-    "Net-(D1-Pad2)" "SDIO_SD2" "SDIO_SD3" "SDIO_CMD" "SDIO_CLK" "SDIO_SD1" BUTTON "UART_TX"
-    "UART_RX" "SDIO_SD0" "Net-(P3-Pad1)" "Net-(P3-Pad2)" "Net-(P3-Pad3)" "Net-(P3-Pad4)" "Net-(P3-Pad5)" "Net-(P3-Pad6)"
-    "USB_D+" "USB_D-" ENABLE "Net-(P4-Pad1)" "Net-(JP1-Pad2)" "Net-(JP2-Pad2)" "Net-(D2-Pad2)" LED
-    "Net-(D3-Pad2)" "Net-(D4-Pad2)" "Net-(P1-Pad7)" "Net-(P1-Pad8)" "Net-(P1-Pad9)" "Net-(P1-Pad10)" "Net-(P1-Pad11)" "Net-(P1-Pad12)"
-    "Net-(P1-Pad17)" "Net-(P1-Pad18)" "Net-(P1-Pad19)" "Net-(P1-Pad20)" "Net-(P2-Pad1)" "Net-(P2-Pad2)" "Net-(P2-Pad3)" "Net-(P2-Pad4)"
-    "Net-(P2-Pad5)" "Net-(P2-Pad6)" "Net-(R2-Pad1)" "Net-(R3-Pad1)" "Net-(U2-Pad17)"
+    ENABLE "Net-(P1-Pad7)" "Net-(P1-Pad8)" "Net-(P1-Pad9)" "Net-(P1-Pad10)" "Net-(P1-Pad11)" "Net-(P1-Pad12)" "Net-(P1-Pad17)"
+    "Net-(P1-Pad18)" "Net-(P1-Pad19)" "Net-(P1-Pad20)" "Net-(P1-Pad21)" "Net-(P1-Pad6)" "Net-(P1-Pad16)" "Net-(P1-Pad15)" IO0
+    "Net-(P1-Pad14)" "Net-(P1-Pad13)" "Net-(P1-Pad24)" "Net-(P1-Pad23)" "Net-(P1-Pad22)" "Net-(P1-Pad26)" "Net-(P1-Pad25)" "Net-(P1-Pad28)"
+    "Net-(P1-Pad27)" "Net-(P1-Pad30)" "Net-(P1-Pad29)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
@@ -103,11 +101,11 @@
     )
   )
   (class Power
-    +5V GND +3V3 "/v_usb"
+    +5V GND +3V3
     (clearance_class Power)
     (via_rule Power)
     (rule
-      (width 400.0)
+      (width 500.0)
     )
     (circuit 
       (use_layer F.Cu B.Cu)
