@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 1423)
+    (start_pass_no 3424)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -87,10 +87,10 @@
     )
   )
   (class "kicad_default"
-    ENABLE "Net-(P1-Pad7)" "Net-(P1-Pad8)" "Net-(P1-Pad9)" "Net-(P1-Pad10)" "Net-(P1-Pad11)" "Net-(P1-Pad12)" "Net-(P1-Pad17)"
-    "Net-(P1-Pad18)" "Net-(P1-Pad19)" "Net-(P1-Pad20)" "Net-(P1-Pad21)" "Net-(P1-Pad6)" "Net-(P1-Pad16)" "Net-(P1-Pad15)" IO0
-    "Net-(P1-Pad14)" "Net-(P1-Pad13)" "Net-(P1-Pad24)" "Net-(P1-Pad23)" "Net-(P1-Pad22)" "Net-(P1-Pad26)" "Net-(P1-Pad25)" "Net-(P1-Pad28)"
-    "Net-(P1-Pad27)" "Net-(P1-Pad30)" "Net-(P1-Pad29)"
+    ENABLE "Net-(P1-Pad8)" "Net-(P1-Pad10)" "Net-(P1-Pad17)" "Net-(P1-Pad18)" "Net-(P1-Pad19)" "Net-(P1-Pad20)" "Net-(P1-Pad21)"
+    "Net-(P1-Pad6)" "Net-(P1-Pad16)" IO0 "Net-(P1-Pad24)" "Net-(P1-Pad23)" "Net-(P1-Pad22)" "Net-(P1-Pad26)" "Net-(P1-Pad25)"
+    "Net-(P1-Pad28)" "Net-(P1-Pad27)" "Net-(P1-Pad30)" "Net-(P1-Pad29)" "SD_SD0" "SD_SD1" "SD_SD2" "SD_SD3"
+    "SD_CLK" "SD_CMD" "SD_DETECT"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
@@ -105,7 +105,7 @@
     (clearance_class Power)
     (via_rule Power)
     (rule
-      (width 500.0)
+      (width 400.0)
     )
     (circuit 
       (use_layer F.Cu B.Cu)
