@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name kerikun11)(type KiCad)(uri C:\Users\kerikun11\GoogleDrive\KiCad\Libraries\kerikun11\kerikun11.pretty)(options "")(descr ""))
+  (lib (name KERIESP32)(type KiCad)(uri "$(KIPRJMOD)/KERIESP32.pretty")(options "")(descr ""))
 )
