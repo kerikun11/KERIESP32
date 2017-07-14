@@ -11,32 +11,32 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 4195)
+    (start_pass_no 2326)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 4.0)
+      (against_preferred_direction_trace_costs 1.0)
     )
     (layer_rule B.Cu
       (active on)
       (preferred_direction vertical)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 1.3)
+      (against_preferred_direction_trace_costs 1.0)
     )
   )
   (rule
     (width 180.0)
-    (clear 180.2)
+    (clear 160.2)
     (clear 0.0 (type smd_to_turn_gap))
-    (clear 45.0 (type smd_smd))
+    (clear 40.0 (type smd_smd))
   )
-  (padstack "Via[0-1]_500:300_um"
+  (padstack "Via[0-1]_600:300_um"
     (shape
-      (circle F.Cu 500.0 0.0 0.0)
+      (circle F.Cu 600.0 0.0 0.0)
     )
     (shape
-      (circle B.Cu 500.0 0.0 0.0)
+      (circle B.Cu 600.0 0.0 0.0)
     )
     (attach off)
   )
@@ -50,28 +50,28 @@
     (attach off)
   )
   (via 
-    "Via[0-1]_500:300_um" "Via[0-1]_500:300_um" default
+    "Via[0-1]_600:300_um" "Via[0-1]_600:300_um" default
   )
   (via 
     "Via[0-1]_800:500_um" "Via[0-1]_800:500_um" default
   )
   (via 
-    "Via[0-1]_500:300_um-kicad_default" "Via[0-1]_500:300_um" "kicad_default"
+    "Via[0-1]_600:300_um-kicad_default" "Via[0-1]_600:300_um" "kicad_default"
   )
   (via 
     "Via[0-1]_800:500_um-kicad_default" "Via[0-1]_800:500_um" "kicad_default"
   )
   (via 
-    "Via[0-1]_500:300_um-Power" "Via[0-1]_500:300_um" Power
+    "Via[0-1]_600:300_um-Power" "Via[0-1]_600:300_um" Power
   )
   (via 
     "Via[0-1]_800:500_um-Power" "Via[0-1]_800:500_um" Power
   )
   (via_rule
-    default "Via[0-1]_500:300_um"
+    default "Via[0-1]_600:300_um"
   )
   (via_rule
-    "kicad_default" "Via[0-1]_500:300_um-kicad_default"
+    "kicad_default" "Via[0-1]_600:300_um-kicad_default"
   )
   (via_rule
     Power "Via[0-1]_800:500_um-Power"
