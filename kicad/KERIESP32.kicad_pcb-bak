@@ -295,7 +295,6 @@
     (descr "Hirose MicroSD Card Connector - DM3AT")
     (tags microsd)
     (path /58EDC560)
-    (clearance 0.254)
     (fp_text reference SD1 (at 8.128 -1.524 360) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)) (justify right top))
     )
